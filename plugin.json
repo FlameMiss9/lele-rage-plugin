@@ -1,0 +1,22 @@
+{
+  "name": "lele-rage-plugin",
+  "version": "1.0.0",
+  "description": "乐乐暴躁模式 + 💩生成 + 炸弹音效 + 窝窝乐诗歌生成器",
+  "author": {
+    "name": "TokyoDev"
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${CLAUDE_PROJECT_ROOT}/scripts/bomb.ps1\"",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

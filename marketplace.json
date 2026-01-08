@@ -1,0 +1,16 @@
+{
+  "name": "lele-local-marketplace",
+  "version": "1.0.0",
+  "description": "乐乐的本地插件市场",
+  "owner": {
+    "name": "TokyoDev"
+  },
+  "plugins": [
+    {
+      "name": "lele-rage-plugin",
+      "version": "1.0.0",
+      "description": "乐乐暴躁模式 + 💩生成 + 炸弹音效 + 窝窝乐诗歌生成器",
+      "source": "./"
+    }
+  ]
+}
